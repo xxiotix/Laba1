@@ -29,7 +29,7 @@ namespace MyAppforArrays.Tests
         [TestMethod]
         public void Calculate_AandBSwapped_ReturnsCorrectResult()
         {
-            RangeProduct r = new RangeProduct(50, 1); // порядок навмисно переплутано
+            RangeProduct r = new RangeProduct(50, 1);
 
             long result = r.Calculate();
 
@@ -42,7 +42,7 @@ namespace MyAppforArrays.Tests
             RangeProduct r = new RangeProduct(10);
 
             Assert.AreEqual(10, r.A);
-            Assert.AreEqual(20, r.B);  // бо b = a + 10
+            Assert.AreEqual(20, r.B);
         }
     }
 }
