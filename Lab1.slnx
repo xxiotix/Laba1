@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="MyAppforArrays/MyAppforArrays.csproj" />
+  <Project Path="ThisApp.Tests/MyAppForArrays.Tests.csproj" Id="48c343b8-4612-4107-9776-8ba5856f0444" />
 </Solution>

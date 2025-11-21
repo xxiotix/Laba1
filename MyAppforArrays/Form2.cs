@@ -38,7 +38,7 @@ namespace MyAppforArrays
                 return;
             }
 
-            dataGridView1.EndEdit();  // 🔥 ДУЖЕ ВАЖЛИВО
+            dataGridView1.EndEdit();
 
             for (int i = 0; i < arr.Length; i++)
             {

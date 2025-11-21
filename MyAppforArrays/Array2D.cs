@@ -55,7 +55,7 @@ namespace MyAppforArrays
             {
                 for (int j = 0; j < Cols; j++)
                 {
-                    sb.Append($"{arr[i, j],6}");   // вирівнювання по ширині
+                    sb.Append($"{arr[i, j],6}");
                 }
                 sb.AppendLine();
             }
